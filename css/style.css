@@ -1,0 +1,370 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+/*___________________________________________*/
+
+.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 28px;
+}
+.logo{
+justify-content: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a{
+  color: #000000;
+  text-decoration: none;
+  padding: 4px 8px 4px 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+  .menu li a:hover{
+    border: #919191 1px solid;
+  }
+.box{
+  width: 7%;
+}
+.title{
+  background: #FAFAFA;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+.imgright{
+  margin-left: 598px;
+}
+.titletext{
+  width: 670px;
+}
+.title h1{
+  font-size: 24px;
+  line-height: 28.8px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.title2{
+  background: #FAFAFA;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.title2 h2{
+  width: 298px;
+  height: 84px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title2 .h2l{
+padding-left: 0px;
+}
+.title2 .h2r{
+padding-right: 0px;
+}
+.title2 h2 p{
+  display: flex;
+  justify-content:center ;
+  height: 36px;
+  text-align: center;
+  color: #5B5B5B;
+}
+
+.title2 h2 p2{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  width: 298px;
+  height: 36px;
+  line-height: 24px;
+  text-align: center;
+  color: #3B3B3B;
+}
+
+/*___________________________________________*/
+.work{
+    max-width: 1920px;
+    padding-top: 126px;
+  }
+  .container{
+    max-width: 1296px;
+    margin: 0 auto;
+  }
+  .item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .course-item{
+    width: 50%;
+    padding-bottom: 80px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .pl{
+    padding-left: 0px;
+  }
+
+  .pr{
+    padding-right: 0px;
+  }
+
+  .card{
+    max-width: 100%;
+    border: 1px solid #F1F1F1;
+    border-radius: 8px
+
+  }
+  .course-item h2{
+    padding-top: 16px;
+    padding-left: 16px;
+      font-size: 28px;
+    color: #3B3B3B;
+    Font-weight: 600;
+  }
+  .course-item p {
+    padding-left: 16px;
+      font-size: 16px;
+      line-height: 1.5;
+    color: #919191;
+    padding-top: 5px;
+  }
+  .tag{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-top: 24px;
+  }
+  .tag li{
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    margin-right: 16px;
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    color: #3B3B3B;
+  }
+  /*___________________________________________*/
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-bottom: 120px;
+}
+.page a{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 40px;height: 40px;
+  margin: 8px;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: #3B3B3B;
+  border-radius: 4px;
+}
+.page a:hover{
+  color: #FFFFFF;
+  background: #1E1E1E;
+}
+
+
+
+  /*___________________________________________*/
+
+footer{
+  margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true);
+}   
+.footertext{
+  margin: 119px 0px 119px 0px;
+  font-size: 20px;
+}
+.footertext h1{
+  line-height: 30px;
+  color: #3B3B3B;
+}
+.footertext p{
+  padding-top: 24px;
+  color: #919191;
+}
+.footerlogo{
+  padding-bottom: 24px;
+}
+.footerbutton{
+  display: flex;
+  flex-direction: column;
+}
+.footerbutton a{
+  width: 306px;
+  height: 72px;
+  margin-bottom: 24px;
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #FFFF;
+  border-radius: 8px;
+  color: #3B3B3B;
+  border: #C1C1C1 1px solid;
+}
+.footerbutton img{
+  padding-right: 8px;
+}
+.footerbutton .b1{
+  background: #000000;
+  color:   #FFFFFF;
+}
+
+
+
+
+/*手機版*/
+
+@media (max-width: 767px) {
+.header{
+  margin: 0 auto;
+  padding: 8px 12px 8px 12px;
+}
+.box{
+  width: 50%;}
+
+.menu{display: none;}
+
+
+.title{
+  background: #FAFAFA;
+  padding-top: 40px;
+}
+.imgleft{
+  padding-left: 38%;
+}
+.imgright{display: none;}
+.titletext{
+  width: 300px;
+  margin-bottom: 40px;
+}
+.title h1{
+  font-size: 20px;
+  line-height: 30px;
+}
+.title2{
+  display: flex;
+  flex-direction: column;
+}
+
+.title2 .h2l{
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.title2 .h2r{
+  padding: 0px;
+}
+
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.item{
+  display: flex;
+  flex-wrap: wrap;
+}
+.course-item{
+  width: 100%;
+  padding-bottom: 48px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.course-item h2{
+
+  padding: 16px 0px 8px 16px;
+}
+.course-item .tag{
+  padding: 16px 0px 0px 16px;
+}
+.page{
+  margin-bottom: 80px;
+}
+footer{
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+}   
+.footerlogo{
+  width: 50%;
+}
+.footertext{
+  font-size: 16px;
+  margin: 40px 0px 40px 0px;
+}
+.footerbutton{
+  padding-bottom: 16px;
+}
+}
